@@ -20,4 +20,5 @@ from . import view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home', view.hello),
+    path('predict', view.predict)
 ]
