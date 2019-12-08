@@ -49,12 +49,17 @@
         <div id="gallery"></div>
     </div>
     <img id="uploaded-image" class="rounded">
+
+    <div id="word-cloud"></div>
 </div>
 
 <!-- Bootstrap core JavaScript -->
 <script src="{% static "jquery/jquery.slim.min.js" %}"></script>
 <script src="{% static "bootstrap/js/bootstrap.bundle.min.js" %}"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
 <script src="{% static "drag_and_drop.js" %}"></script>
+<script src="{% static "word_cloud.js" %}"></script>
 
 </body>
 
