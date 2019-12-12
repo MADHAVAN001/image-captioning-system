@@ -3,11 +3,13 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
 import numpy as np
 import cv2
 
+
 def encoder_model(model):
     new_input = model.input
     new_output = model.layers[-2].output
     img_encoder = Model(new_input, new_output)
     return img_encoder
+
 
 def encode_images(image):
     img_model = InceptionV3(weights='imagenet') #Replace with Resnet if Resnet50 works better

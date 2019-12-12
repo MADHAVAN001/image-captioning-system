@@ -1,4 +1,4 @@
-import os 
+import os
 from django.conf import settings
 
 
@@ -33,8 +33,10 @@ def read_id_to_word_dictionary(word_dictionary_file_path):
 
     return word_dict
 
+
 def get_word_dictionary():
-    return read_word_dictionary(os.path.join(settings.BASE_DIR,'model/model_data/word_dictionary.txt'))
+    return read_word_dictionary(os.path.join(settings.BASE_DIR, 'model/model_data/word_dictionary.txt'))
+
 
 def get_id_dictionary():
-    return read_id_to_word_dictionary(os.path.join(settings.BASE_DIR,'model/model_data/word_dictionary.txt'))
+    return read_id_to_word_dictionary(os.path.join(settings.BASE_DIR, 'model/model_data/word_dictionary.txt'))
