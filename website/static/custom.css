@@ -1,7 +1,7 @@
 #drop-area {
     border: 2px dashed #ccc;
     border-radius: 20px;
-    width: 600px;
+    width: 60%;
     font-family: sans-serif;
     margin: 100px auto;
     padding: 20px;
@@ -49,10 +49,10 @@ p {
 
 #pca-googlecc-100k {
     display: inline-block;
-    width: 400px;
+    width: 40%;
 }
 
 #word-cloud-nltk {
     display: inline-block;
-    width: 400px;
+    width: 40%;
 }
